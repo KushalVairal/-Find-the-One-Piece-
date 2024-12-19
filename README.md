@@ -19,8 +19,8 @@ A fun, pirate-themed number guessing game built with vanilla JavaScript. Players
 ## 🛠️ Technologies Used
 
 - HTML5
-- CSS3
-- Vanilla JavaScript
+- CSS
+- JavaScript
 
 ## 🎯 How to Play
 
@@ -64,4 +64,4 @@ This project is [MIT](LICENSE) licensed.
 - Built as a fun project to practice JavaScript
 
 ---
-Made with ❤️ by [Your Name](#)
+Made with ❤️ by [KushalVairal](#)
