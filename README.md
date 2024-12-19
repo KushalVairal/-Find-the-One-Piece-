@@ -14,7 +14,7 @@ A fun, pirate-themed number guessing game built with vanilla JavaScript. Players
 
 ## 🚀 Live Demo
 
-[Play the game here](#) <!-- Add your deployed game URL here -->
+[Play the game here](https://kushalvairal.github.io/-Find-the-One-Piece-/) <!-- Add your deployed game URL here -->
 
 ## 🛠️ Technologies Used
 
