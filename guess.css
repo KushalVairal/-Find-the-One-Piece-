@@ -1,0 +1,110 @@
+/* One Piece Theme Colors */
+:root {
+    --straw-hat-red: #D62839;
+    --ocean-blue: #1B4965;
+    --sunny-yellow: #FFD700;
+    --going-merry-white: #F8F8F8;
+    --thousand-sunny-brown: #8B4513;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('https://wallpapers.com/images/featured/one-piece-desktop-idg4aqn5l0lh40dk.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: var(--sunny-yellow);
+    text-align: center;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+}
+
+.game-box {
+    background: var(--going-merry-white);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.logo {
+    max-width: 200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.instructions {
+    color: var(--ocean-blue);
+    font-size: 1.2em;
+    margin-bottom: 25px;
+}
+
+.pirate-btn {
+    background: var(--straw-hat-red);
+    color: var(--going-merry-white);
+    border: none;
+    padding: 12px 25px;
+    font-size: 1.1em;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin: 10px;
+}
+
+.pirate-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(214, 40, 57, 0.4);
+}
+
+.pirate-btn:active {
+    transform: translateY(0);
+}
+
+input[type="number"] {
+    padding: 12px;
+    font-size: 1.1em;
+    border: 2px solid var(--ocean-blue);
+    border-radius: 8px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+input[type="number"]:focus {
+    outline: none;
+    border-color: var(--straw-hat-red);
+    box-shadow: 0 0 5px rgba(214, 40, 57, 0.3);
+}
+
+#message {
+    font-size: 1.2em;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Animation for correct guess */
+@keyframes celebrate {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.celebration {
+    animation: celebrate 0.5s ease-in-out;
+}
